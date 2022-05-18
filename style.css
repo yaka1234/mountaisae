@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 40px;
+    color: lightblue;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-image: linear-gradient(lightblue,white);
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: blueviolet;
+    margin: 30px;
+    padding: 10px;
+}
+
+.container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    opacity: 0.2;
+    width: 150px;
+    height: 200px;
+}
+
+.gallery img:hover {
+    opacity:1;
+    border: 6px solid navy;
+    width:170px;
+    height: 220px;
+    padding:5px;
+    transition:0.5s ease-out;
+
+}
+
+.text {
+    width: 300px;
+
+}
+
+.right {
+    text-align: right;
+}
